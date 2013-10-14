@@ -1,1 +1,4 @@
 exclude: [package.json, jade, script]
+safe: true
+lsi: false
+pygments: true
