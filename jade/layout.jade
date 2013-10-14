@@ -1,0 +1,24 @@
+doctype 5
+html
+  head
+    title robot parade nola
+    link(href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css", rel="stylesheet")
+    link(href="/css/client.css", rel="stylesheet")
+    link(rel='icon', type='image/x-icon', href='/img/fav.png')
+    meta(name="description", content="The Robot Parade. New Orleans, LA")
+    meta(name="keywords", content="maker, makers, hacker, hackers, robotics, hacking, making, nola, new orleans,  louisiana, parade, ball, robots, kinectic, art, sculpture")
+    meta(name="author", content="H. Cole Wiley")
+  body
+    .container
+      .row
+        a(href='/')
+          #logo.col-sm-8.col-sm-offset-2
+            h1.hidden Robot Parade
+            img(src='/img/logo.svg', title='The Robot Parade')
+      .row
+        nav.navbar.navbar-inverse.col-sm-4(role='navigation')
+          a.navbar-brand(href='http://blog.robotparadenola.org') blog
+          a.navbar-brand(href='http://facebook.com/robotparadenola') facebook
+          a.navbar-brand(href='http://www.flickr.com/photos/hcwiley/sets/72157632162866097/') 2012 images
+          a.navbar-brand(href='#contact') contact
+    block main
