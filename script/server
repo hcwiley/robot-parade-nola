@@ -1,4 +1,5 @@
 #!/bin/sh
 # Compile and start a development server.
 
-script/compile && exec serve .
+script/watch &
+exec serve .
