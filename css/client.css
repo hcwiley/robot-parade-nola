@@ -10,6 +10,9 @@ body {
   width: 100%;
   height: auto;
 }
+h2 {
+  font-weight: bold;
+}
 a {
   font-style: italic;
   font-size: 13pt;
@@ -57,13 +60,16 @@ nav a {
 nav a:last-child {
   border-right: none;
 }
-@media (min-width: 768px) {
+@media (max-device-width : 1024px) {
+  nav {
+    width: 100%;
+  }
   nav div {
     margin: 0 auto;
     width: 100%;
   }
   nav div a.navbar-brand {
-    font-size: 34px !important;
+    font-size: 30px !important;
     padding: 15px 10px;
     width: 50%;
     text-align: center;
