@@ -57,14 +57,19 @@ nav a {
 nav a:last-child {
   border-right: none;
 }
-@media (max-width: 400px) {
+@media (min-width: 768px) {
   nav div {
-    width: 300px;
     margin: 0 auto;
+    width: 100%;
   }
   nav div a.navbar-brand {
-    font-size: 14px;
+    font-size: 34px !important;
     padding: 15px 10px;
+    width: 50%;
+    text-align: center;
+  }
+  nav div a.navbar-brand:nth-child(2) {
+    border: none;
   }
 }
 .inline {
